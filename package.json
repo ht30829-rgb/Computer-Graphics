@@ -1,15 +1,15 @@
 {
-  "name": "threejs-intro",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "week6-shadow",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
+    "lil-gui": "^0.21.0",
     "three": "^0.180.0"
   }
 }
