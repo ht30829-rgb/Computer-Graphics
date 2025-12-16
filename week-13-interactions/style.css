@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+#info-panel {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  min-width: 260px;
+  line-height: 1.5;
+}
