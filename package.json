@@ -1,4 +1,21 @@
 {
+<<<<<<< HEAD
+  "name": "assignment-ii",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.182.0"
+  },
+  "devDependencies": {
+    "vite": "^7.3.1"
+=======
   "name": "week6-shadow",
   "private": true,
   "version": "0.0.0",
@@ -11,5 +28,6 @@
   "dependencies": {
     "lil-gui": "^0.21.0",
     "three": "^0.180.0"
+>>>>>>> f5f1c0941585b2a74e09a97a7709c50c3a364a48
   }
 }
