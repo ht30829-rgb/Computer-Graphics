@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Skopje Park – Computer Graphics</title>
+  <style>
+    body { margin: 0; overflow: hidden; }
+    #info {
+      position: absolute;
+      left: 10px;
+      top: 10px;
+      padding: 6px 10px;
+      background: rgba(255,255,255,0.75);
+      border-radius: 4px;
+      font-family: sans-serif;
+      z-index: 2;
+    }
+    button {
+      margin-right: 10px;
+      padding: 5px 10px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div id="info">
+    Animation of Skopje Park <br>
+    <button onclick="setDay()">Day</button>
+    <button onclick="setNight()">Night</button>
+    <script type="module" src="script.js"></script>
+  </div>
+  <div id="ui">
+  <button id="zoomIn">Zoom -</button>
+  <button id="zoomOut">Zoom +</button>
+  <button id="rotateLeft">⟲ Right</button>
+  <button id="rotateRight">⟳ Left</button>
+  <button onclick="setClear()">Clear</button>
+<button onclick="setRain()">Rain</button>
+<button onclick="setStorm()">Storm</button>
+
+</div>
+
+<style>
+#ui {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  gap: 10px;
+}
+#ui button {
+  padding: 10px 14px;
+  font-size: 16px;
+  border: none;
+  background: #ffffffcc;
+  cursor: pointer;
+  border-radius: 6px;
+}
+#ui button:hover {
+  background: white;
+}
+</style>
+</body>
